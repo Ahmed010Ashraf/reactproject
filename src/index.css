@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+
+        font-family: "Gugi", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+}
+.active{
+        background-color: #1ABC9C;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+}
